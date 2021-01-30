@@ -17,7 +17,7 @@ const { Strategy } = require("passport-local");
 var app = express();
 
 MongoClient.connect(
-  "mongodb+srv://<username>:<password>@user-profiles.u30dj.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "mongodb+srv://admin:admin@dev.sgo4x.mongodb.net/<dbname>?retryWrites=true&w=majority",
   (err, client) => {
     if (err) {
       throw err;
